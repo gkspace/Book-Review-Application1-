@@ -1,0 +1,142 @@
+.book-card {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 250px;
+  height: 380px; /* Adjust the height to your desired value */
+  margin: 10px;
+  background-color: #f0f0f0; /* Set background color */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+.book-card img {
+  width: auto;
+  width: 200px;
+  height: 160px; /* Adjust the image height relative to the card height */
+  object-fit: contain; /* Maintain aspect ratio and fit within the container */
+  margin-bottom: 10px;
+}
+
+.book-card .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40%; /* Adjust the space for title and author */
+}
+
+.book-card h2,
+.book-card p {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.book-card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eb6666; /* Set the background color */
+  color: white; /* Set the text color */
+  cursor: pointer;
+  margin-inline-start: 5px;
+  margin-bottom: 2px;
+}
+
+
+.book-card button:hover {
+  background-color: #924c4c;
+}
+
+.star-rating {
+  font-size: 24px; /* Adjust the size of the stars */
+  color: #ffc107; /* Set the color of the stars to gold */
+}
+
+.star-rating span {
+  display: inline-block;
+  width: 20px; /* Adjust the width of each star */
+}
+
+.rating-value {
+  color: #000; /* Black color for rating value */
+  font-size: 18px;
+}
+
+.review-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0e7e7; /* Match the background color of the parent card */
+  border-radius: 10px; /* Match the border radius of the parent card */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4); /* Match the shadow effect of the parent card */
+  width: 80%; /* Set the width to 80% of the viewport */
+  max-width: 400px; /* Set a maximum width */
+  padding: 20px;
+}
+
+.review-modal h2 {
+  margin-bottom: 20px;
+}
+
+.review-modal form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.review-modal label {
+  margin-bottom: 10px;
+}
+
+.review-modal input,
+.review-modal textarea {
+  width: 94%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.5px solid #ccc;
+}
+
+.review-modal button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0b75e6;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.review-modal button:hover {
+  background-color: #0056b3;
+}
+
+.review-modal .review {
+  margin-bottom: 20px;
+  border-radius: 10px; /* Add border radius */
+  background-color: #f9f9f9; /* Set background color for each review box */
+  padding: 5px; /* Reduce padding inside the review box */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.review-modal .user-info {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 16px; /* Reduce font size for user info */
+}
+
+.review-modal .comment {
+  margin-bottom: 10px;
+  font-size: 14px; /* Reduce font size for comment */
+}
+
+.review-modal .rating {
+  color: #ffc107; /* Set color for star rating */
+  font-size: 18px; /* Adjust font size for star rating */
+}
+

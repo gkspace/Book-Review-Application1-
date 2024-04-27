@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0e7e7;
+  margin: 0;
+  padding: 0;
+}
+
+.book-listing {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 50%; /* Adjust the width as needed */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px; /* Increase the font size */
+  transition: border 0.3s ease; /* Add transition for smooth effect */
+}
+
+.search-bar input:focus {
+  border-color: #0b0b0b; /* Change border color on focus */
+  outline: none; /* Remove outline on focus */
+}
+
+.books-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Distribute items evenly along the line */
+  gap: 20px;
+}
+
+.sorting,
+.books-per-page,
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sorting label,
+.books-per-page label {
+  margin-right: 10px;
+}
+
+.sorting select,
+.books-per-page select {
+  margin-right: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination .current-page {
+  background-color: #007bff;
+  color: #ffffff;
+}
