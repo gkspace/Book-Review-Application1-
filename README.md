@@ -21,10 +21,15 @@ Navigate to the root directory of the cloned repository:
 $ cd Book-Review-Application
 
 Install dependencies for both frontend and backend:
+
 $ -cd front-end
+
 $ -npm install
 
+open 2nd terminal
+
 $ -cd ../back-end
+
 $ -npm install
 
 Running the Application
