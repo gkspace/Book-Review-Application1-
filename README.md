@@ -13,33 +13,35 @@ Getting Started
 --------------------
 
 Clone this repository to your local machine:
--git clone <repository-url>
+
+$ git clone <repository-url>
 
 Navigate to the root directory of the cloned repository:
--cd Book-Review-Application
+
+$ cd Book-Review-Application
 
 Install dependencies for both frontend and backend:
--cd front-end
--npm install
+ $ -cd front-end
+$ -npm install
 
--cd ../back-end
--npm install
+$ -cd ../back-end
+$ -npm install
 
 Running the Application
 ------------------------
 
 Start the Frontend:Open a terminal and navigate to the front-end directory:
 
--cd front-end
+$ -cd front-end
 Run the following command to start the frontend server:
--npm start
+$ -npm start
 
 This will start the frontend server and the application will be accessible at http://localhost:3000 in your browser.
 
 Start the Backend:Open another terminal and navigate to the back-end directory:
--cd back-end
+$ -cd back-end
 Run the following command to start the backend server:
--node server.js
+$ -node server.js
 
 This will start the backend server and it will be accessible at http://localhost:5000/books
 
